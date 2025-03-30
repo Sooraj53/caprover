@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "dockerfilePath": "./Dockerfile",
+  "containerHttpPort": "80",
+  "containerHttpsPort": "443",
+  "serviceName": "caprover",
+  "imageName": "caprover/caprover"
+}

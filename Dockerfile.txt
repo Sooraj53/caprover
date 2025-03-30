@@ -1,0 +1,11 @@
+# Use official CapRover base image
+FROM caprover/caprover
+
+# Set environment variables
+ENV NODE_ENV=production
+
+# Copy any additional files if needed
+# COPY . /app
+
+# Start CapRover
+CMD ["sh", "-c", "docker-entrypoint.sh"]

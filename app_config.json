@@ -1,0 +1,6 @@
+{
+  "appName": "caprover_deployment",
+  "envVars": {
+    "NODE_ENV": "production"
+  }
+}
